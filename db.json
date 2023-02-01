@@ -1,0 +1,52 @@
+{
+  "funcionarios": [
+    {
+      "id": 1,
+      "matricula": 212123121,
+      "nome": "rafa",
+      "email": "rafaellemos426@gmail.com",
+      "cpf": "02131321321",
+      "cargaHoraria": "50",
+      "dataNascimento": "2000-01-01",
+      "dataAdmissao": "2000-01-01",
+      "dataDemissao": "2000-01-01"
+    },
+    {
+      "id": 2,
+      "matricula": 2121231,
+      "nome": "Rafael Lemos",
+      "email": "rafaellemos426@gmail.com",
+      "cpf": "021312321312",
+      "cargaHoraria": "2231",
+      "dataNascimento": "2000-01-01",
+      "dataAdmissao": "2000-01-01",
+      "dataDemissao": "2000-01-01",
+      "funcao": 1,
+      "setor": 1
+    }
+  ],
+  "setores": [
+    {
+      "id": 1,
+      "nome": "rafa",
+      "descricao": "sdasdas",
+      "supervisor": "asdasdasdasds"
+    },
+    {
+      "id": 2,
+      "nome": "rafa",
+      "descricao": "teste",
+      "supervisor": "rafa",
+      "local": "asdsdada",
+      "especialidade": "asdasdasdas"
+    }
+  ],
+  "funcoes": [
+    {
+      "id": 1,
+      "nome": "teste",
+      "descricao": "teste1234",
+      "salario": "1223213"
+    }
+  ]
+}

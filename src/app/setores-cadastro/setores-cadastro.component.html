@@ -1,0 +1,45 @@
+<h1 class="text-center fw-bolder mt-5">Cadastro de Setores</h1>
+<form [formGroup]="setorForm" (ngSubmit)="onSubmit()">
+  <div class="text-center mx-auto w-50">
+    <label for="nome" class="form-label">Nome:</label>
+    <input class="form-control" id="nome" type="text" formControlName="nome" />
+    <label for="descricao" class="form-label">Descrição: </label>
+    <input
+      class="form-control"
+      id="descricao"
+      type="text"
+      formControlName="descricao"
+    />
+    <label for="supervisor" class="form-label">Supervisor: </label>
+    <input
+      class="form-control"
+      id="supervisor"
+      type="text"
+      formControlName="supervisor"
+    />
+    <label for="local" class="form-label">Local: </label>
+    <input
+      class="form-control"
+      id="local"
+      type="text"
+      formControlName="local"
+    />
+    <label for="especialidade" class="form-label">Especialidade: </label>
+    <input
+      class="form-control"
+      id="especialidade"
+      type="text"
+      formControlName="especialidade"
+    />
+  </div>
+  <div class="m-auto justify-content-center text-center p-3">
+    <button
+      type="submit"
+      [disabled]="!setorForm.valid"
+      class="btn btn-outline-success mx-2"
+    >
+      CADASTRAR
+    </button>
+    <button type="reset" class="btn btn-outline-warning mx-2">LIMPAR</button>
+  </div>
+</form>
